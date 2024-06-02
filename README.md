@@ -9,8 +9,8 @@ This project focuses on operator overloading for a Graph class, represented by a
 - `-=`
 - `++`: Increment operator (prefix and postfix)
 - `--`: Decrement operator (prefix and postfix)
-- Unary +: Unary plus operator
-- Unary -: Unary minus operator
+- `Unary +`: Unary plus operator
+- `Unary -`: Unary minus operator
 
 The implementation of these operators follows the definition of matrix addition and subtraction. Therefore, they are only defined when the graphs have the same number of vertices. Additionally, addition and subtraction between two edges are not allowed when the resulting edge weight becomes zero or a new edge is added as a result of the operation. These restrictions apply to assignment operators (+=, -=, ++, --). When the result of the operation is stored in a third graph, these restrictions do not apply.
 
